@@ -16,5 +16,5 @@ while true; do
 	# Wait some seconds to let the CPU do other things, like handling web requests, etc
 	echo Waiting for 10 seconds...
 	sleep 10
-  php $RJ --type webVideoTranscode --maxjobs=1
+  	php $RJ --type webVideoTranscode --maxjobs=1
 done
