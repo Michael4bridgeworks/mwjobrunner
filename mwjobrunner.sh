@@ -1,5 +1,5 @@
 #!/bin/bash
-sh -c apache2ctl -D FOREGROUND
+sh -c apache2ctl start
 # Put the MediaWiki installation path on the line below
 IP=/var/www/html/mediawiki
 RJ=$IP/maintenance/runJobs.php
